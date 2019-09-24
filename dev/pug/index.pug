@@ -1,0 +1,20 @@
+extends layout
+
+block title
+    title Your title here
+
+block seo
+    meta(name="your seo tags here")
+
+block content
+    .container
+      .col-4
+        h1(class="h2") INITU CDN - Luis Falcon
+        p Si las plataformas de cursos online son universidades del siglo XXI, entonces Init es el compañero de clase quien te ayuda con la tarea, es quien estudia contigo para enfrentar el examen final juntos, es quien comparte conocimiento y te ayuda a seguir adelante.
+        picture
+            source(type="image/webp" srcset="./images/picture.webp")
+            source(type="image/jpg" srcset="./images/picture.jpg")
+            img(src="./images/picture.jpg" alt="picture no load")
+    .container
+      div(class="col-12 move-col-lg-6 col-lg-4")
+        p hola
