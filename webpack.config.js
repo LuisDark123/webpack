@@ -40,7 +40,7 @@ const app = {
       contentBase: path.join(__dirname + '/dist'),
       compress: true,
       port: 8080,   // Puerto
-      host: '192.168.0.11',   // Dirección IP del equipo
+      host: 'Aquí tu IPv4',   // Dirección IPv4 del equipo
       open: true
   },
 
